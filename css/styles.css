@@ -14,6 +14,12 @@
     font-weight: bold;
 }
 
+body {
+    font-family: Cabin, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
 .header {
     background-color: #293254;
     padding: 28px 0;
@@ -74,4 +80,31 @@ svg.edit-icon:hover path:first-child {
 
 svg.edit-icon:hover path:nth-child(2) {
     stroke: #a5a1a1;
+}
+
+.main {
+    background-color: #FBFBFC;
+}
+
+.article-container {
+    padding: 59px 0 20px 0;
+}
+
+.return-back {
+    text-decoration: none;
+    margin-bottom: 25px;
+    display: inline-block;
+}
+
+.return-back > * {
+    vertical-align: middle;
+}
+
+.return-back span {
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #989BA7;
+
 }
