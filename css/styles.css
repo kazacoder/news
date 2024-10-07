@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Cabin;
+    src: url('../fonts/cabinregular.ttf');
+}
+
+@font-face {
+    font-family: Cabin;
+    src: url("../fonts/cabinbold.ttf");
+    font-weight: bold;
+}
+
+.header {
+    background-color: #293254;
+    padding: 28px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header .logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header .menu {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 752px;
+}
+
+.header .menu ul {
+    list-style: none;
+    font-size: 0;
+}
+
+.header .menu ul li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 35px;
+}
+
+.header .menu ul li:last-child {
+    margin-right: 0;
+}
+
+.divider {
+    width: 1px;
+    height: 24px;
+    background-color: #5D6585;
+}
+
+.header .container {
+    font-size: 0;
+}
+
+svg.filled:hover path {
+    fill: #a5a1a1;
+}
+
+svg.stroked:hover path {
+    stroke: #a5a1a1;
+}
+
+svg.edit-icon:hover path:first-child {
+    fill: #a5a1a1;
+}
+
+svg.edit-icon:hover path:nth-child(2) {
+    stroke: #a5a1a1;
+}
